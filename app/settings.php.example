@@ -1,0 +1,22 @@
+<?php
+
+return [
+	//setting display error
+	'displayErrorDetails'	=> true,
+
+	'addContentLengthHeader' => false,
+
+	//setting timezone
+	'timezone'	=> 'Asia/Jakarta',
+
+	//setting language
+	'lang'	=> [
+		'default'	=> 'en',
+	],
+
+	//setting zenviva sms
+	'sms-gateway'	=> [
+		'user_key'	=> 'your_user_key',
+		'pass_key'	=> 'your_pass_key',
+	],
+];
